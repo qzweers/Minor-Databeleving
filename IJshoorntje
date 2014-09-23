@@ -1,0 +1,21 @@
+import processing.pdf.*;
+ 
+int w = 300;
+int h = 640;
+int r = 200;
+ 
+void setup(){
+ 
+   size(w, h, PDF, "Ijshoorntje_2.pdf");
+   background(255);
+   
+   stroke(0);
+   ellipse(w/2 , 150, r, r);
+   
+   fill(0);
+   triangle(50, 220, w/2, 600, 260, 150);
+   
+   line(50, 220, 65, 200);
+   line(250, 150, 260, 150);
+    
+}
